@@ -1,0 +1,573 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>App Design</title>
+    <!-- favicon  -->
+    <link rel="shortcut icon" href="./images/logo/favicon.png" type="image/x-icon">
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <!-- Bootstarp Css -->
+    <link rel="stylesheet" href="./CSS/bootstrap.css">
+    <!-- Custom Css  -->
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="CSS/responsive.css">
+</head>
+
+<body>
+
+    <!-- ============
+    Header section
+    ============= -->
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light navbar-sticky">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#home">
+                    <img src="./images/logo/oneshot-white.png" alt="Not avaiable" class="image-fluid navbar-regular">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#home">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#feature">Features</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#app-screanshots">ScreanShot</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#pricing">Pricing</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <section id="home">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-sm-12 col-lg-6">
+                    <div class="home-text">
+                        <h2>
+                            Present your app with <span class="text-uppercase">oneshot</span>
+                        </h2>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis nemo aspernatur, odio amet
+                            atque dolorum harum qui in rem temporibus magnam ex laborum numquam consequuntur incidunt
+                            natus odit illum a.
+                        </p>
+                    </div>
+                    <div class="home-download-btn">
+                        <a href="#"><img src="./images/svg-icons/control-play.svg" alt="">Play store</a>
+                        <a href="#"><img src="./images/svg-icons/apple.svg" alt="">App store</a>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-lg-6">
+                    <div class="home-img align-self-center">
+                        <img src="./images/m.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- counter sectiob  -->
+    <secion id="counter-section">
+        <div class="container">
+            <div class="row mt-5 counter-items">
+                <div class="col-6 col-md-3 col-lg-3">
+                    <div class="counter-item">
+                        <span class="counter" id="counter1">0</span>
+                        <span class="counter">M</span>
+                    </div>
+                    <div class="users">
+                        Users
+                    </div>
+                </div>
+                <div class="col-6 col-md-3 col-lg-3">
+                    <div class="counter-item counter-third">
+                        <span class="counter" id="counter2">0</span>
+                        <span class="counter">K</span>
+                    </div>
+                    <div class="users">
+                        DOWNLOADS
+                    </div>
+                </div>
+                <div class="col-6 col-md-3 col-lg-3">
+                    <div class="counter-item">
+                        <span class="counter" id="counter3">0</span>
+                        <span class="counter">M</span>
+                    </div>
+                    <div class="users">
+                        CUSTOMER
+                    </div>
+                </div>
+                <div class="col-6 col-md-3 col-lg-3">
+                    <div class="counter-item counter-last">
+                        <span class="counter" id="counter4">0</span>
+                        <span class="counter">Star</span>
+                    </div>
+                    <div class="users">
+                        RATING
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </secion>
+
+
+    <!-- Promo section  -->
+    <section id="promo-section">
+        <div class="container">
+            <div class="row text-center pt-5">
+                <div class="col-12 mt-4 section-heading">
+                    <!-- section heading -->
+                    <h1>Why do Every people<br><span>Love App-Mobile</span></h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt, fuga!<br>Lorem ipsum dolor sit
+                        amet consectetur.</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6 col-lg-4 text-center d-flex  lign-items-center justify-content-center mt-5">
+                    <div class="promo">
+                        <div class="icon py-3">
+                            <span><img src="./images/svg-icons/heart.svg" alt=""></span>
+                        </div>
+                        <h3>Clean Design</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas nihil ratione libero odio
+                            eum reprehenderit!</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 text-center d-flex  lign-items-center justify-content-center mt-5">
+                    <div class="promo promo-active">
+                        <div class="icon py-3">
+                            <span><img src="./images/svg-icons/lock.svg" alt=""></span>
+                        </div>
+                        <h3>Secure Data</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas nihil ratione libero odio
+                            eum reprehenderit!</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 text-center d-flex  lign-items-center justify-content-center mt-5">
+                    <div class="promo">
+                        <div class="icon py-3">
+                            <span><img src="./images/svg-icons/heart-broken.svg" alt=""></span>
+                        </div>
+                        <h3>Retina Ready</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas nihil ratione libero odio
+                            eum reprehenderit!</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+
+    <!-- Features section  -->
+    <section id="feature">
+        <div class="main-title py-5">
+            <div class="conatiner-fluid">
+                <div class="row">
+                    <div class="col-md-5 offset-md-1">
+                        <div class="tilte">
+                            <h1>Our Speacial Features</h1>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam adipisci similique ullam
+                                dignissimos nostrum? Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi,
+                                laborum!</p>
+                        </div>
+                    </div>
+                    <div class="col-md-5">
+                        <div class="feature-img">
+                            <img src="./images/service-1.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container cards-container">
+            <div class="row">
+                <div class="col-sm-12 col-lg-10">
+                    <div class="row">
+                        <!-- Feature card -->
+                        <div class="col-sm-6 col-lg-5">
+                            <div class="feature-card">
+                                <h4>Beautiful Design</h4>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, quaerat.</p>
+                                <div class="feature-card-icon">
+                                    <img src="./images/svg-icons/home.svg" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-12 col-md-12 col-lg-5">
+                            <div class="feature-card">
+                                <h4>Pure and Simple</h4>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, quaerat
+                                    Lorem ipsum dolor .
+                                </p>
+                                <div class="feature-card-icon">
+                                    <img src="./images/svg-icons/apple.svg" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-12 col-md-12 col-lg-5">
+                            <div class="feature-card">
+                                <h4>Color Schemes</h4>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, Lorem ipsum
+                                    dolor, sit amet consectetur adipisicing elit. Sed, at.
+                                </p>
+                                <div class="feature-card-icon">
+                                    <img src="./images/svg-icons/control-play.svg" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-12 col-md-12 col-lg-6">
+                            <div class="feature-card">
+                                <h4>Wow Animations</h4>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, quaerat Lorem
+                                    ipsum dolor sit amet consectetur adipisicing elit.
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, magnam.
+                                </p>
+                                <div class="feature-card-icon">
+                                    <img src="./images/svg-icons/heart-broken.svg" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-12 col-md-12 col-lg-5">
+                            <div class="feature-card">
+                                <h4>Excellent Everything</h4>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, quaerat Lorem
+                                    ipsum dolor sit.</p>
+                                <div class="feature-card-icon">
+                                    <img src="./images/svg-icons/heart.svg" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-12 col-md-12 col-lg-7">
+                            <div class="feature-card">
+                                <h4>Easy To customize</h4>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, quaerat Lorem
+                                    ipsum dolor sit amet consectetur adipisicing elit. Laborum, ipsam. Lorem ipsum dolor
+                                    sit amet.</p>
+                                <div class="feature-card-icon">
+                                    <img src="./images/svg-icons/lock.svg" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- App screan shots -->
+
+    <section id="app-screanshots">
+        <div class="container">
+            <div class="row justify-content-center pt-4">
+                <div class="col-lg-6">
+                    <div class="main-heading text-center">
+                        <h2>App ScreanShots</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos ratione maiores fugiat totam
+                            dignissimos non, esse amet quasi ipsam officiis!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Swiper -->
+        <div class="swiper mySwiper swiper-wraper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <img src="./images/screenshots/1.jpg" />
+                </div>
+                <div class="swiper-slide">
+                    <img src="./images/screenshots/2.jpg" />
+                </div>
+                <div class="swiper-slide">
+                    <img src="./images/screenshots/3.jpg" />
+                </div>
+                <div class="swiper-slide">
+                    <img src="./images/screenshots/4.jpg" />
+                </div>
+                <div class="swiper-slide">
+                    <img src="./images/screenshots/5.jpg" />
+                </div>
+                <div class="swiper-slide">
+                    <img src="./images/screenshots/4.jpg" />
+                </div>
+                <div class="swiper-slide">
+                    <img src="./images/screenshots/3.jpg" />
+                </div>
+                <div class="swiper-slide">
+                    <img src="./images/screenshots/5.jpg" />
+                </div>
+                <div class="swiper-slide">
+                    <img src="./images/screenshots/1.jpg" />
+                </div>
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </section>
+
+
+
+    <section id="pricing">
+        <div class="container mt-5">
+            <div class="row justify-content-center">
+                <div class="col-lg-6 col-12">
+                    <div class="section-heading text-center">
+                        <h1>
+                            Approdable Packages
+                        </h1>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus beatae iste minus
+                            blanditiis! Asperiores unde architecto numquam tenetur hic! Quibusdam.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row text-center pt-5 my-5">
+                <!-- pricing card  -->
+                <div class="col-md-6 col-lg-3">
+                    <div class="singal-price-card">
+                        <!-- month -->
+                        <div class="month">
+                            <p>Month</p>
+                        </div>
+                        <h4>Premium</h4>
+                        <!-- icon -->
+                        <div class="card-icon">
+                            <div class="img-circle">
+                                <img src="./images/svg-icons/medall.svg" alt="">
+                            </div>
+                        </div>
+                        <!-- dollar -->
+                        <div class="dollar">
+                            <h2>
+                                <span>$</span>35
+                            </h2>
+                        </div>
+                        <!-- feature list -->
+                        <ul>
+                            <li>5Gb Linux web space</li>
+                            <li>5 MySQL DataBase</li>
+                            <li>24/7 Tech Support</li>
+                            <li>Daily Backup</li>
+                        </ul>
+                        <!-- btn -->
+                        <div class="price-btn">
+                            <a href="#">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="singal-price-card">
+                        <!-- month -->
+                        <div class="month">
+                            <p>Month</p>
+                        </div>
+                        <h4>Basic</h4>
+                        <!-- icon -->
+                        <div class="card-icon">
+                            <div class="img-circle">
+                                <img src="./images/svg-icons/heart-broken.svg" alt="">
+                            </div>
+                        </div>
+                        <!-- dollar -->
+                        <div class="dollar">
+                            <h2>
+                                <span>$</span>55
+                            </h2>
+                        </div>
+                        <!-- feature list -->
+                        <ul>
+                            <li>5Gb Linux web space</li>
+                            <li>5 MySQL DataBase</li>
+                            <li>24/7 Tech Support</li>
+                            <li>Daily Backup</li>
+                        </ul>
+                        <!-- btn -->
+                        <div class="price-btn">
+                            <a href="#">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="singal-price-card active-card">
+                        <!-- month -->
+                        <div class="month">
+                            <p>Month</p>
+                        </div>
+                        <h4>Addict</h4>
+                        <!-- icon -->
+                        <div class="card-icon">
+                            <div class="img-circle">
+                                <img src="./images/svg-icons/crown.svg" alt="">
+                            </div>
+                        </div>
+                        <!-- dollar -->
+                        <div class="dollar">
+                            <h2>
+                                <span>$</span>75
+                            </h2>
+                        </div>
+                        <!-- feature list -->
+                        <ul>
+                            <li>5Gb Linux web space</li>
+                            <li>5 MySQL DataBase</li>
+                            <li>24/7 Tech Support</li>
+                            <li>Daily Backup</li>
+                        </ul>
+                        <!-- btn -->
+                        <div class="price-btn">
+                            <a href="#">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="singal-price-card">
+                        <!-- month -->
+                        <div class="month">
+                            <p>Month</p>
+                        </div>
+                        <h4>Bussiness</h4>
+                        <!-- icon -->
+                        <div class="card-icon">
+                            <div class="img-circle">
+                                <img src="./images/svg-icons/gift.svg" alt="">
+                            </div>
+                        </div>
+                        <!-- dollar -->
+                        <div class="dollar">
+                            <h2>
+                                <span>$</span>85
+                            </h2>
+                        </div>
+                        <!-- feature list -->
+                        <ul>
+                            <li>5Gb Linux web space</li>
+                            <li>5 MySQL DataBase</li>
+                            <li>24/7 Tech Support</li>
+                            <li>Daily Backup</li>
+                        </ul>
+                        <!-- btn -->
+                        <div class="price-btn">
+                            <a href="#">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <!-- contact section  -->
+
+
+    <section id="contact wrapper">
+        <div class="contact">
+
+
+            <div class="container wrapper">
+                <div class="row text-center pt-5">
+                    <div class="col-12">
+                        <h4>Let's Start a Conversation!</h4>
+                        <h1>Contact Us</h1>
+                    </div>
+                </div>
+            </div>
+            <div class="container ">
+                <div class="row">
+                    <div class="col-lg-5 col-md-5">
+                        <h5>Contact Info</h5>
+                        <div class="info-item">
+                            <span><img src="./images/svg-icons/location-pin.svg" alt=""></span>
+                            <p><a href="#">Lorem ipsum dolor sit amet.</a></p>
+                        </div>
+                        <div class="info-item">
+                            <span><img src="./images/svg-icons/mobile.svg" alt=""></span>
+                            <p><a href="#">+92 3097369603</a></p>
+                        </div>
+                        <div class="info-item">
+                            <span><img src="./images/svg-icons/envelope.svg" alt=""></span>
+                            <p><a href="#">mrhammadshandhu@gmail.com</a></p>
+                        </div>
+                    </div>
+                    <div class="col-lg-7 col-md-7">
+                        <form action="">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <input type="text" class="form-control" placeholder="Enter your name">
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <input type="email" class="form-control" placeholder="Enter your Email">
+                                    </div>
+                                </div>
+                                <div class="col-md-12">
+                                    <div class="form-group">
+                                        <div class="mb-3">
+                                            <textarea class="textarea" cols="30" rows="5"
+                                                placeholder="Enter your Message"></textarea>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="price-btn m-0 contact-btn">
+                                    <a href="#"><span><img src="./images/svg-icons/rocket.svg" alt=""></span>Send
+                                        Message</a>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <footer>
+        <div class="footer-section">
+            <div class="container">
+                <div class="row text-center d-flex align-items-center justify-content-center">
+                    <div class="col-lg-6 col-md-6">
+                        <p>&copy; All right reserved | </p>
+                    </div>
+                    <div class="col-lg-6 col-md-6">
+                        <p>This template created by Mr.Hammad</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <!-- Bootstrap js  -->
+    <script src="./JS/bootstrap.js"></script>
+    <!-- Custom js  -->
+    <script src="./JS/main.js"></script>
+
+</body>
+
+</html>

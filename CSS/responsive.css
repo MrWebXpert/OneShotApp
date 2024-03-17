@@ -1,0 +1,138 @@
+/* for desktop */
+
+@media (max-width:991px) {
+    .navbar-nav {
+        background: white !important;
+        text-align: center;
+    }
+
+    .navbar-nav .nav-link {
+        color: #000 !important;
+    }
+
+    .navbar .navbar-nav .active {
+        color: #000 !important;
+    }
+
+    #home .row {
+        flex-direction: column-reverse;
+    }
+
+    .home-text h2 {
+        color: var(--text-white);
+        font-size: 2.563rem;
+        letter-spacing: 0.125rem;
+        padding: 0;
+    }
+
+    .home-img {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .home-img img {
+        width: 40%;
+    }
+
+    .home-text {
+        text-align: center;
+    }
+
+    .home-text h2 {
+        font-size: 2.8rem;
+    }
+
+    .home-download-btn {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 5rem;
+    }
+
+
+}
+
+@media (max-width: 766px) {
+
+    /* counter-section */
+    .counter-item {
+        padding: 1.5rem 0;
+    }
+
+    .counter {
+        font-size: 1.7rem;
+    }
+
+    .counter-last {
+        border-right: none;
+    }
+
+    .counter-third {
+        border: none;
+    }
+     /* features section  */
+     .cards-container{
+        margin-top: -15rem;
+    }
+    .main-title{
+        text-align: center;
+    }
+}
+
+@media (max-width:565px) {
+    .home-text {
+        text-align: center;
+    }
+
+    .home-text h2 {
+        font-size: 2.2rem;
+    }
+
+    .home-download-btn {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .home-download-btn a {
+        padding: 5px 10px;
+        font-size: 1rem;
+    }
+
+    /* counter-section */
+    .counter-item {
+        padding: 1.5rem 0;
+    }
+
+    .counter {
+        font-size: 1.7rem;
+    }
+
+    .counter-last {
+        border-right: none;
+    }
+
+    .counter-third {
+        border: none;
+    }
+     /* features section  */
+     .cards-container{
+        margin-top: -15rem;
+    }
+    .main-title{
+        text-align: center;
+    }
+
+
+
+    /* features section  */
+    .cards-container{
+        margin-top: -15rem;
+    }
+    .main-title{
+        text-align: center;
+    }
+
+    
+}
